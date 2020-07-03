@@ -36,7 +36,7 @@ body {
 	width: 202px;
 }
 
-.logo a, .brand a {
+.logo a {
 	color: #222222;
 	font-size: 27px;
 	font-weight: 300;
@@ -504,6 +504,8 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 
 .footerTop {
 	margin-top: 110px;
+	display: flex;
+    justify-content: space-between;
 }
 
 .brand {
@@ -514,6 +516,16 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	float: left;
 }
 
+.brand a {
+	color: #222222;
+	font-size: 27px;
+	font-weight: 300;
+	line-height: 58px;
+	text-decoration: none;
+	letter-spacing: 0.68px;
+	padding-left: 13px;
+}
+
 .brand p {
 	color: #898989;
 	font-size: 14px;
@@ -521,6 +533,10 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	line-height: 24px;
 	letter-spacing: 0.35px;
 }
+
+.company, .info, .shop {
+	margin-top: 6px;
+} 
 
 .company h5, .info h5, .shop h5 {
 	color: #f16d7f;
@@ -540,7 +556,57 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	letter-spacing: 0.4px;
 	line-height: 42px;
 	display: block;
+}
+
+.footerBot {
+	height: 80px;
+	background-color: #e6e6e6;
+	margin-top: 90px;
 } 
+
+.footBotContainer {
+	height: inherit;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footBotContainer p {
+	color: #7a7a7a;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 42px;
+	letter-spacing: 0.4px;
+}
+
+.toils {
+	display: flex;
+}
+
+.footerToils {
+	width: 32px;
+	height: 32px;
+	background-color: #ffffff;
+	color: #b2b2b2;
+	text-align: center;
+}
+
+.footerToils a {
+	color: #b2b2b2;
+	line-height: 33px;
+}
+
+.toilsTwit a {
+	color: #f7f7f8;
+}
+
+.footerToils:not(:last-child) {
+	margin-right: 8px;
+}
+
+.toilsTwit {
+	background-color: #f16d7f;	
+}
 
 
 
