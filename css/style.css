@@ -276,7 +276,7 @@ img[alt="cart_fon"] {
 	font-size: 13px;
 	font-weight: 700;
 	text-transform: uppercase;
-	margin: 20px 0 0 14px;
+	margin: 20px 14px 0 14px;
 }
 
 .txtMiddle span {
@@ -375,8 +375,6 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 }
 
 .wripTxt p {
-	width: 220px;
-	height: 58px;
 	color: #fbfbfb;
 	font-size: 14px;
 	font-weight: 300;
@@ -442,8 +440,11 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 }
 
 .brd2 {
-	background-color: #f16d7f;
 	margin: 0 13px 0 13px;
+}
+
+.brd2:hover {
+	background-color: #f16d7f;
 }
 
 .subTxt {
@@ -596,7 +597,7 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	line-height: 33px;
 }
 
-.toilsTwit a {
+.toilsTwit a:hover {
 	color: #f7f7f8;
 }
 
@@ -604,8 +605,8 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	margin-right: 8px;
 }
 
-.toilsTwit {
-	background-color: #f16d7f;	
+.toilsTwit:hover {
+	background-color: #f16d7f;		
 }
 
 
