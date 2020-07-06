@@ -432,7 +432,7 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	letter-spacing: 0.3px;
 }
 
-.bdr1, .brd2, .brd3 {
+.brd1, .brd2, .brd3 {
 	width: 38px;
 	height: 4px;
 	background-color: #d6d6d6;
@@ -443,7 +443,7 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	margin: 0 13px 0 13px;
 }
 
-.brd2:hover {
+.brd1:hover, .brd2:hover, .brd3:hover {
 	background-color: #f16d7f;
 }
 
@@ -553,8 +553,6 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 0.4px;
-	line-height: 59px;
-	letter-spacing: 0.4px;
 	line-height: 42px;
 	display: block;
 }
@@ -588,7 +586,6 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	width: 32px;
 	height: 32px;
 	background-color: #ffffff;
-	color: #b2b2b2;
 	text-align: center;
 }
 
@@ -597,16 +594,16 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	line-height: 33px;
 }
 
-.toilsTwit a:hover {
-	color: #f7f7f8;
+.footerToils:hover {
+	background-color: #f16d7f;
+}
+
+.footerToils a i:hover {
+	color: #fff;
 }
 
 .footerToils:not(:last-child) {
 	margin-right: 8px;
-}
-
-.toilsTwit:hover {
-	background-color: #f16d7f;		
 }
 
 /*Стили для страницы Shopping Cart*/
@@ -666,6 +663,23 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	width: 630px;
 	display: flex;
 	justify-content: space-between;
+	text-align: center;
+}
+
+.categor1 {
+	width: 80px;
+}
+
+.categor2, .categor4 {
+	width: 75px;
+}
+
+.categor3 {
+	width: 70px;
+}
+
+.categor5 {
+	width: 60px;
 }
 
 .mangoOne, .mangoTwo, .mangoThree  {
@@ -731,10 +745,6 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	width: 78px;
 }
 
-.qua {
-	width: 67px;
-}
-
 .ship {
 	width: 60px;
 }
@@ -784,7 +794,7 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	width: 355px;
 }
 
-.adressOne legend, .discountOne legend {
+.adressOne h4, .discountOne h4 {
 	color: #222222;
 	font-size: 16px;
 	font-weight: 900;
@@ -823,7 +833,7 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	margin-top: 5px;
 }
 
-.discountOne legend {
+.discountOne h4 {
 	margin-bottom: 25px;
 }
 
@@ -891,6 +901,7 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	text-transform: uppercase;
 	border: none;
 	margin-top: 17px;
+	font-family: inherit;
 }
 
 
