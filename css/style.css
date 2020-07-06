@@ -609,6 +609,291 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	background-color: #f16d7f;		
 }
 
+/*Стили для страницы Shopping Cart*/
+
+.arrivals {
+	height: 148px;
+	background-color: #f8f3f4;
+}
+
+.arrivalsCont {
+	height: inherit;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.arrivalsCont span {
+	color: #f16d7f;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.arrivalsLinks a {
+	color: #636363;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.arrivalsLinks .activ {
+	color: #f16d7f;
+	font-weight: 700;
+}
+
+.arrivalsProduct {
+	margin-top: 90px;
+}
+
+.productDetails {
+	height: 32px;
+	color: #222222;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: -0.2px;
+	border-bottom: 1px solid #eaeaea;
+	display: flex;
+	justify-content: space-between;
+}
+
+.prodCategor {
+	width: 630px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.mangoOne, .mangoTwo, .mangoThree  {
+	height: 165px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.peopleOne, .peopleTwo, .peopleThree {
+	width: 280px;
+}
+
+.peopleOne img, .peopleTwo img, .peopleThree img {
+	float: left;
+    margin-right: 20px;
+}
+
+.peopleTxt {
+	overflow: hidden;
+    margin-top: 13px;
+}
+
+.peopleTxt h4 {
+	color: #222222;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.peopleSpanOne {
+	color: #575757;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+.peopleSpanTwo {
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 20px;
+	color: #6f6e6e;
+}
+
+.shirtOne, .shirtTwo, .shirtThree {
+	width: 630px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.uni, .ship, .sub, .act {
+	color: #656565;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: center;
+}
+
+.uni {
+	width: 78px;
+}
+
+.qua {
+	width: 67px;
+}
+
+.ship {
+	width: 60px;
+}
+
+.sub {
+	width: 64px;
+}
+
+.act {
+	width: 50px;
+}
+
+.shirtOne input, .shirtTwo input, .shirtThree input {
+	width: 54px;
+	height: 30px;
+	border: 1px solid #eaeaea;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.shopCart {
+	display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.clearShop, .contShop {
+	width: 235px;
+	height: 50px;
+	border: 1px solid #eaeaea;
+	background-color: #ffffff;
+	color: #4a4a4a;
+	font-size: 14px;
+	font-weight: 700;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForm {
+	margin-top: 63px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.adress, .discount {
+	width: 355px;
+}
+
+.adressOne legend, .discountOne legend {
+	color: #222222;
+	font-size: 16px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 22px;
+}
+
+.adressOne select, .adressOne input,
+.discountOne input {
+	width: 355px;
+	height: 45px;
+	font-family: inherit;
+	border: 1px solid #eaeaea;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	color: #b1b1b1;
+	font-size: 13px;
+	font-weight: 300;
+	padding: 13px;
+	box-sizing: border-box;
+}
+
+.adressOne input::placeholder, .discountOne input::placeholder  {
+	color: #b1b1b1;
+}
+
+.adressOne button {
+	width: 100px;
+	height: 35px;
+	border: 1px solid #eaeaea;
+	background-color: #ffffff;
+	color: #4a4a4a;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+
+.discountOne legend {
+	margin-bottom: 25px;
+}
+
+.discountOne label {
+	color: #000000;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.discountOne input {
+	margin-top: 22px;
+}
+
+.discountOne button {
+	width: 118px;
+	height: 35px;
+	border: 1px solid #eaeaea;
+	background-color: #ffffff;
+	color: #4a4a4a;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+
+.total {
+	width: 360px;
+	height: 214px;
+	background-color: #f5f3f3;
+	padding: 42px;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+.subTtl {
+	color: #4a4a4a;
+	font-size: 11px;
+	font-weight: 400;
+	text-transform: uppercase;
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 22px;
+}
+
+.subTtl .grand {
+	color: #222222;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: block;
+	margin-top: 13px;
+}
+
+.subTtl .grand .grdTtl {
+	color: #f16d7f;
+	margin-left: 20px;	
+}
+
+.total button {
+	width: 276px;
+	height: 50px;
+	background-color: #f16d7f;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	margin-top: 17px;
+}
+
+
 
 
 
