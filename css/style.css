@@ -407,7 +407,6 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 }
 
 .burhan p {
-	height: 68px;
 	color: #222224;
 	font-size: 16px;
 	font-style: italic;
@@ -420,7 +419,7 @@ img[alt="delivery"], img[alt="discounts"], img[alt="quality"] {
 	color: #f16d7f;
 	font-weight: 700;
 	letter-spacing: 0.4px;
-	margin-top: 19px;
+	margin-top: 12px;
 }
 
 .burhan .dhaka {
