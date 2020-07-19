@@ -460,7 +460,7 @@ body {
 		}
 
 		.bottomCont {
-			padding: 50px 0 43px;
+			padding: 50px 0 30px;
 			display: flex;
     		flex-wrap: wrap;
     		justify-content: space-between;
@@ -472,8 +472,9 @@ body {
 
 		.secContent {
 			width: 263px;
-			height: 364px;
+			height: 350px;
 			background-color: #ffffff;
+			margin-bottom: 15px;
 		}
 
 		.imgTopGray {
@@ -627,6 +628,7 @@ body {
 			.burhanTxt {
 				overflow: hidden;
     			padding-left: 28px;
+    			max-width: 423px;
 			}
 
 			p {
@@ -844,20 +846,21 @@ body {
 				a {
 					color: #b2b2b2;
 					line-height: 33px;
+
+					i:hover {
+						color: #fff;
+					}
 				}
 			}
+
+			.footerToils:not(:last-child) {
+				margin-right: 8px;
+			}
+
+			.footerToils:hover {
+				background-color: #f16d7f;
+			}	
 		}
 	}
 } 
 
-.footerToils:hover {
-	background-color: #f16d7f;
-}
-
-.footerToils a i:hover {
-	color: #fff;
-}
-
-.footerToils:not(:last-child) {
-	margin-right: 8px;
-}

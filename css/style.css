@@ -339,7 +339,7 @@ body {
         .manCategor .rightContent .middleCont .sortTwo select {
           width: 62px; }
     .manCategor .rightContent .bottomCont {
-      padding: 50px 0 43px;
+      padding: 50px 0 30px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between; }
@@ -348,8 +348,9 @@ body {
           justify-content: center; } }
     .manCategor .rightContent .secContent {
       width: 263px;
-      height: 364px;
-      background-color: #ffffff; }
+      height: 350px;
+      background-color: #ffffff;
+      margin-bottom: 15px; }
     .manCategor .rightContent .imgTopGray {
       width: inherit;
       background-color: #e9e9e9;
@@ -464,7 +465,8 @@ body {
           float: none; } }
     .subscribe .subscribeWrip .burhan .burhanTxt {
       overflow: hidden;
-      padding-left: 28px; }
+      padding-left: 28px;
+      max-width: 423px; }
     .subscribe .subscribeWrip .burhan p {
       color: #222224;
       font-size: 16px;
@@ -630,14 +632,11 @@ body {
         .footerBot .footBotContainer .toils .footerToils a {
           color: #b2b2b2;
           line-height: 33px; }
-
-.footerToils:hover {
-  background-color: #f16d7f; }
-
-.footerToils a i:hover {
-  color: #fff; }
-
-.footerToils:not(:last-child) {
-  margin-right: 8px; }
+          .footerBot .footBotContainer .toils .footerToils a i:hover {
+            color: #fff; }
+      .footerBot .footBotContainer .toils .footerToils:not(:last-child) {
+        margin-right: 8px; }
+      .footerBot .footBotContainer .toils .footerToils:hover {
+        background-color: #f16d7f; }
 
 /*# sourceMappingURL=style.css.map */
