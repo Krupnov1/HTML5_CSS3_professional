@@ -16,14 +16,14 @@ body {
 }
 
 .wripper {
-		width: $wripperWidth;
-		margin: 0 auto;
+	width: $wripperWidth;
+	margin: 0 auto;
 
-		@media (max-width: 1140px) {
-    		width: auto;
-    		margin: auto;
-    	}
-	}
+	@media (max-width: 1140px) {
+    	width: auto;
+    	margin: auto;
+    }
+}
 
 .header {
 	height: 99px;
