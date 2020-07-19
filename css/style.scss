@@ -480,6 +480,10 @@ body {
 	    align-items: center;
 	    margin-top: 30px;
 
+	    @media(max-width: 330px) {
+	    	margin-top: 5px;
+	    }
+
 	    input {
 			width: 280px;
 			height: inherit;
@@ -523,7 +527,6 @@ body {
 
     @media(max-width: 992px) {
     	flex-direction: column;
-    	align-items: center;
     	margin-top: 20px;
     }
 
