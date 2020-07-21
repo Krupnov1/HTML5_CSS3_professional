@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap");
+@import url(reset.css);
+$bodyFontFamily: 'Montserrat', sans-serif;
+$bodyWidth: 100%;
+$containerWidth: 1366px;
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
