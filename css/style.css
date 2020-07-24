@@ -232,7 +232,7 @@ body {
           .wrapContent .manCategory .rightContent .topRightCont {
             flex-wrap: wrap;
             height: auto;
-            padding: 0 15px; } }
+            padding: 0 14px; } }
         @media (max-width: 1100px) {
           .wrapContent .manCategory .rightContent .topRightCont .trend {
             margin-top: 15px; } }
@@ -432,13 +432,7 @@ body {
 .infoProduct {
   grid-area: infoProduct;
   min-height: 341px;
-  background-color: #222224;
-  /*@media(max-width: 1200px) {
-  	flex-wrap: wrap;
-  	height: auto;
-  	padding: 15px;
-  	margin-top: 30px;
-  }*/ }
+  background-color: #222224; }
   @media (max-width: 1175px) {
     .infoProduct {
       margin-top: 60px; } }
@@ -505,7 +499,7 @@ body {
       max-width: 423px; }
       @media (max-width: 550px) {
         .subscribe .subscribeWrip .burhan .burhanTxt {
-          padding-left: 0px; } }
+          padding-left: 0; } }
     .subscribe .subscribeWrip .burhan p {
       color: #222224;
       font-size: 16px;
@@ -535,9 +529,9 @@ body {
   .subscribe .subTxt {
     width: 400px;
     text-align: center; }
-    @media (max-width: 400px) {
+    @media (max-width: 991px) {
       .subscribe .subTxt {
-        width: auto; } }
+        min-width: 290px; } }
     .subscribe .subTxt h3 {
       color: #222224;
       font-weight: 400;
